@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: 'Titillium web';
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+    color: #F1F4FFFF;
+    background-image: url(img/BG\ Sell\ car.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+     
+}
+.header{
+    position: sticky;
+    top: 0;
+    background-color: rgba(170, 72, 170, 0.8);
+}
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    font-size: 1.3rem;
+    color: #F1F4FFFF;
+    text-decoration: none;
+    text-shadow: 3px 2px #836070;
+   
+}
+.nav{
+    float: right;
+    display: flex;
+    text-decoration: none;
+}
+.nav ul{
+    display: flex;
+    gap: 30px;
+}
+.nav a{
+    text-decoration: none;
+    color:#F1F4FFFF;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.nav a:hover{
+    text-decoration: underline;
+    color: #F1F4FFFF;
+    background-color: rgb(121, 47, 108);
+    border-radius: 2px;
+    padding: 0 10px 0 10px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+.nav a:active{
+    color: aliceblue;
+    background-color: black;
+}
+.car-wrapper{
+    width: 600px;
+    height: 370px;
+    margin: 50px auto;
+    border: 1px solid #F1F4FFFF;
+    border-radius: 10px;
+    align-items: center;
+}
+.h1{
+    text-align: center;
+    font-weight: bold;
+    color: #F1F4FFFF;
+    background-color: rgba(121, 47, 108, 0.8);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.paragraph{
+    text-align: center;
+    font-style: italic;
+    color: #F1F4FFFF;
+}
+.info{
+    line-height: 1.7;
+    word-spacing: 1.6;
+    
+}
+.label{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.input{
+    margin: 3px, 0, 3px, 0;
+    padding: 5px;
+    border-radius: 6px;
+}
+.proceed{
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    color: #F1F4FFFF;
+    background-color: rgb(121, 47, 108);
+}
+.footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(170, 72, 170, 0.8);
+}

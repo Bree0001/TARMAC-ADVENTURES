@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: 'Titillium web' sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    font-style: normal;
+    color: #F1F4FFFF;
+    background-image: url(img/CONTACT\ BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.header{
+    position: sticky;
+    top: 0;
+    background-color: rgba(170, 72, 170, 0.4);
+}
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    font-size: 1.3rem;
+    color: #F1F4FFFF;
+    text-decoration: none;
+    text-shadow: 3px 2px #836070;
+   
+}
+.nav{
+    float: right;
+    display: flex;
+    text-decoration: none;
+}
+.nav ul{
+    display: flex;
+    gap: 30px;
+}
+.nav a{
+    text-decoration: none;
+    color:#F1F4FFFF;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.nav a:hover{
+    text-decoration: underline;
+    color: #F1F4FFFF;
+    background-color: rgb(121, 47, 108);
+    border-radius: 2px;
+    padding: 0 10px 0 10px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+.nav a:active{
+    color: aliceblue;
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    text-align: center;
+    font-weight: bold;
+    color: #F1F4FFFF;
+}
+.container{
+    width: 650px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 100px;
+}
+.input{
+    margin: 20px;
+    padding: 5px;
+    border-radius: 6px;
+}
+.button{
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    color: #F1F4FFFF;
+    background-color: rgba(121, 47, 108, 0.9);
+}
+.input text{
+    padding: 100px;
+}
+.bx{
+    font-size: 1.5rem;
+}
+.footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(170, 72, 170, 0.4);
+}

@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Titillium web';
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+    color: #0c1618;
+    background-color: rgba(185, 211, 221, 0.3);
+    
+}
+.header{
+    position: sticky;
+    top: 0;
+    background-color: rgba(170, 72, 170, 0.4);
+}
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+    text-shadow: 3px 2px #836070;
+   
+}
+.nav{
+    float: right;
+    display: flex;
+    text-decoration: none;
+}
+.nav ul{
+    display: flex;
+    gap: 30px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+.nav a:hover{
+    text-decoration: underline;
+    color: #F1F4FFFF;
+    background-color: rgb(121, 47, 108);
+    border-radius: 2px;
+    padding: 0 10px 0 10px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+.nav a:active{
+    color: aliceblue;
+    background-color: black;
+}
+.text{
+    margin: 20px 0 20px 0;
+    color: #F1F4FFFF;
+    background-color: rgb(121, 47, 108);
+    position: relative;
+}
+.image-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.image-box{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px;
+    max-width: 400px;
+    min-height: 550px;
+}
+.img{
+   width: 100%;
+   height: 40%;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+.h2{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.description{
+    list-style-type: none;
+    text-align: center;
+    line-height: 2;
+}
+.button-div{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    
+}
+
+.button{
+    padding: 0 2px 0 2px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    color: #F1F4FFFF;
+    background-color: rgb(121, 47, 108);
+}
+.btn-div{
+    float: right;
+}
+.btn{
+    margin: 0 50px 0 50px;
+    padding: 10px;
+}
+.btn a{
+    text-decoration: none;
+}
+.btn a:hover{
+    text-decoration: underline;
+    color: #F1F4FFFF;
+    background-color: rgb(121, 47, 108);
+}
+.column{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.paragraph{
+    font-size: 1.3rem;
+    padding-right: 3px;
+    color: rgb(121, 47, 108);
+}
+.list li{
+    list-style-type: none;
+    
+}
+.list li a{
+    text-decoration: none;
+    color: black;
+}
+.list li a:hover{
+    text-decoration: underline;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 2px;
+    padding: 0 10px 0 10px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+.input{
+    font-size: inherit;
+    font-family: inherit;
+    padding: 10px;
+}
+.icons{
+    display: inline-block;
+    margin-right: 20px;
+}
+.bx-bxl{
+    font-size: 1.5rem;
+    color: black;
+}
