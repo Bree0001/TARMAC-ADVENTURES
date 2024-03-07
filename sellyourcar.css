@@ -15,6 +15,7 @@ body{
     background-image: url(img/BG\ Sell\ car.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    z-index: 0.1;
    
      
 }
@@ -62,11 +63,12 @@ body{
 }
 .car-wrapper{
     width: 600px;
-    height: 370px;
+    height: 500px;
     margin: 50px auto;
     border: 1px solid #F1F4FFFF;
     border-radius: 10px;
     align-items: center;
+    z-index: 1;
 }
 .h1{
     text-align: center;
@@ -96,6 +98,13 @@ body{
     margin: 3px, 0, 3px, 0;
     padding: 5px;
     border-radius: 6px;
+}
+textarea {
+    width: 80%;
+    height: 90px; 
+    padding: 10px;
+    margin: 20px;
+    resize: none;
 }
 .proceed{
     padding: 10px;

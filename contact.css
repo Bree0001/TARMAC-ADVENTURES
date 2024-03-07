@@ -88,8 +88,12 @@ body{
     color: #F1F4FFFF;
     background-color: rgba(121, 47, 108, 0.9);
 }
-.input text{
-    padding: 100px;
+textarea {
+    width: 80%;
+    height: 100px; 
+    padding: 10px;
+    margin: 20px;
+    resize: none;
 }
 .bx{
     font-size: 1.5rem;
